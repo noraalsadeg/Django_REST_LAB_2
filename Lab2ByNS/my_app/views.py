@@ -32,4 +32,4 @@ def random_number (request : Request):
 
     my_random_number = random.randint(min_number, max_number)
     res_data = {"random" : my_random_number}
-    return Response(res_data)
+    return Response(res_data) 
